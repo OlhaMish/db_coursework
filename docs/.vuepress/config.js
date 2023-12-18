@@ -15,7 +15,7 @@ module.exports = {
     }]
   ],
   port: 3030,
-  base: '/IM-22_lab_and_course_works/',
+  base: '/db_coursework/',
   theme: 'cool',
   // dest: 'dist',
   head: [
