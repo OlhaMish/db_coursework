@@ -7,9 +7,9 @@ footer: "ECL 2.0 Licensed | Copyright © [2023] [Oleksand Horovyi]"
 ---
 
 
-**Виконав(-ла):** 
+**Виконала:** 
 
-*студент 2-го курсу, групи ІМ-22*<span padding-right:5em></span> **Горовий Олександр** [Telegram](https://t.me/GigaWaltuh)
+*студентка 2-го курсу, групи ІМ-22*<span padding-right:5em></span> **Міщук Ольга** [Telegram](https://t.me/olechok)
 
 **Керівник**
 
