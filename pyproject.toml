@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.10"
 aiomysql = "^0.2.0"
 sanic-restful-api = "^0.2.0"
+cryptography = "^41.0.7"
 
 
 [build-system]

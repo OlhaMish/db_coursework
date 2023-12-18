@@ -7,82 +7,123 @@
 
 ### Get (All)
 <p>
-    <img src="./resources_tests/Users_get_all.png">
+    <img src="./img/GetAllUsers.jpg">
 </p>
 
-### Post
-Введення користувача
+### Get (Single User)
 <p>
-    <img src="./resources_tests/Users_post.png">
-</p>
-Відповідь сервера
-<p>
-    <img src="./resources_tests/Users_post_response.png">
+    <img src="./img/GetSingleUser.jpg">
 </p>
 
-### Get/Id
-Введення користувача
+### Add User
 <p>
-    <img src="./resources_tests/Users_get.png">
-</p>
-Відповідь сервера
-<p>
-    <img src="./resources_tests/Users_get_response.png">
+    <img src="./img/CreateUser.jpg">
 </p>
 
-### Put
-Введення користувача
-<p>
-    <img src="./resources_tests/Users_put.png">
-</p>
-Відповідь сервера
-<p>
-    <img src="./resources_tests/Users_put_response.png">
-</p>
 
-### Delete
-Введення користувача
-<p>
-    <img src="./resources_tests/Users_delete.png">
-</p>
-Відповідь сервера
-<p>
-    <img src="./resources_tests/Users_delete_response.png">
-</p>
-
-## Requests
+## Dataset Categories
 
 ### Get (All)
 <p>
-    <img src="./resources_tests/Requests_get_all.png">
+    <img src="./img/GetAllDatasetCategories.jpg">
 </p>
 
-### Post
+### Get (Single Dataset Category)
+<p>
+    <img src="./img/GetSingleDatasetCategory.jpg">
+</p>
+
+### Create Dataset Category
+
+<p>
+    <img src="./img/CreateDatasetCategory.jpg">
+</p>
+
+### Update Dataset Category
 Введення користувача
 <p>
-    <img src="./resources_tests/Requests_post.png">
+    <img src="./img/UpdateDatasetCategories1.jpg">
 </p>
 Відповідь сервера
 <p>
-    <img src="./resources_tests/Requests_post_response.png">
+    <img src="./img/UpdateDatasetCategories2.jpg">
 </p>
 
-### Get/Id
+### Delete Dataset Category
 Введення користувача
 <p>
-    <img src="./resources_tests/Requests_get.png">
+    <img src="./img/DeleteDatasetCategory1.jpg">
 </p>
 Відповідь сервера
 <p>
-    <img src="./resources_tests/Requests_get_response.png">
+    <img src="./img/DeleteDatasetCategory2.jpg">
 </p>
 
-### Delete
+
+## Dataset
+
+### Get (All)
+<p>
+    <img src="./img/GetAllDatasets.jpg">
+</p>
+
+### Create Dataset 
+
+<p>
+    <img src="./img/CreateDataset.jpg">
+</p>
+
+### Update Dataset 
+<p>
+    <img src="./img/UpdateDataset.jpg">
+</p>
+
+### Delete Dataset
 Введення користувача
 <p>
-    <img src="./resources_tests/Requests_delete.png">
+    <img src="./img/DeleteDataset1.jpg">
 </p>
 Відповідь сервера
 <p>
-    <img src="./resources_tests/Requests_delete_response.png">
+    <img src="./img/DeleteDataset2.jpg">
 </p>
+
+
+## File
+
+### Get (All)
+<p>
+    <img src="./img/GetAllFiles.jpg">
+</p>
+
+### Get (Single Dataset Category)
+<p>
+    <img src="./img/GetSingleFile.jpg">
+</p>
+
+### Create Dataset Category
+
+<p>
+    <img src="./img/CreateFile.jpg">
+</p>
+
+### Update Dataset Category
+Введення користувача
+<p>
+    <img src="./img/UpdateFile1.jpg">
+</p>
+Відповідь сервера
+<p>
+    <img src="./img/UpdateFile2.jpg">
+</p>
+
+### Delete Dataset Category
+Введення користувача
+<p>
+    <img src="./img/DeleteFile1.jpg">
+</p>
+Відповідь сервера
+<p>
+    <img src="./img/DeleteFile2.jpg">
+</p>
+
