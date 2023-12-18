@@ -1,6 +1,6 @@
 # Тестування працездатності системи (Swagger)
 
-У цьому розділі продемонстроване тестування системи і взаємодія з такими моделями як User та Request
+У цьому розділі продемонстроване тестування системи і взаємодія з такими моделями як Users, Dataset Categories, Dataset, File
 
 
 ## Users
@@ -96,18 +96,18 @@
     <img src="./img/GetAllFiles.jpg">
 </p>
 
-### Get (Single Dataset Category)
+### Get (Single File)
 <p>
     <img src="./img/GetSingleFile.jpg">
 </p>
 
-### Create Dataset Category
+### Create File
 
 <p>
     <img src="./img/CreateFile.jpg">
 </p>
 
-### Update Dataset Category
+### Update  File
 Введення користувача
 <p>
     <img src="./img/UpdateFile1.jpg">
@@ -117,7 +117,7 @@
     <img src="./img/UpdateFile2.jpg">
 </p>
 
-### Delete Dataset Category
+### Delete File
 Введення користувача
 <p>
     <img src="./img/DeleteFile1.jpg">
