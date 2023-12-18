@@ -1,0 +1,167 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2023-04-15T12:00:00.000Z",
+  "__export_source": "insomnia.backend",
+  "resources": [
+    {
+      "_id": "wrk_1",
+      "_type": "workspace",
+      "parentId": null,
+      "name": "Backend API",
+      "description": ""
+    },
+    {
+      "_id": "env_base_url",
+      "_type": "environment",
+      "parentId": "wrk_1",
+      "data": {
+        "base_url": "http://localhost:8000"
+      },
+      "name": "Base environment"
+    },
+    {
+      "_id": "req_dataset_categories_get_all",
+      "_type": "request",
+      "parentId": "wrk_1",
+      "method": "GET",
+      "url": "{{ base_url }}/dataset_categories",
+      "name": "Get All Dataset Categories"
+    },
+    {
+      "_id": "req_dataset_categories_get_single",
+      "_type": "request",
+      "parentId": "wrk_1",
+      "method": "GET",
+      "url": "{{ base_url }}/dataset_categories/:category_id",
+      "name": "Get Single Dataset Category"
+    },
+    {
+      "_id": "req_dataset_categories_post",
+      "_type": "request",
+      "parentId": "wrk_1",
+      "method": "POST",
+      "url": "{{ base_url }}/dataset_categories",
+      "name": "Create Dataset Category",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"name\": \"New Category\"\n}"
+      }
+    },
+    {
+      "_id": "req_dataset_categories_put",
+      "_type": "request",
+      "parentId": "wrk_1",
+      "method": "PUT",
+      "url": "{{ base_url }}/dataset_categories/:category_id",
+      "name": "Update Dataset Category",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"name\": \"Updated Category\"\n}"
+      }
+    },
+    {
+          "_id": "req_dataset_categories_delete",
+      "_type": "request",
+      "parentId": "wrk_1",
+      "method": "DELETE",
+      "url": "{{ base_url }}/dataset_categories/:category_id",
+      "name": "Delete Dataset Category"
+    },
+    {
+      "_id": "req_datasets_get_all",
+      "_type": "request",
+      "parentId": "wrk_1",
+      "method": "GET",
+      "url": "{{ base_url }}/datasets",
+      "name": "Get All Datasets"
+    },
+    {
+      "_id": "req_datasets_get_single",
+      "_type": "request",
+      "parentId": "wrk_1",
+      "method": "GET",
+      "url": "{{ base_url }}/datasets/:dataset_id",
+      "name": "Get Single Dataset"
+    },
+    {
+      "_id": "req_datasets_post",
+      "_type": "request",
+      "parentId": "wrk_1",
+      "method": "POST",
+      "url": "{{ base_url }}/datasets",
+      "name": "Create Dataset",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"category_id\": 1,\n  \"name\": \"New Dataset\",\n  \"description\": \"Dataset Description\",\n  \"author_name\": \"Author\"\n}"
+      }
+    },
+    {
+      "_id": "req_datasets_put",
+      "_type": "request",
+      "parentId": "wrk_1",
+      "method": "PUT",
+      "url": "{{ base_url }}/datasets/:dataset_id",
+      "name": "Update Dataset",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"category_id\": 1,\n  \"name\": \"Updated Dataset\",\n  \"description\": \"Updated Description\",\n  \"author_name\": \"Updated Author\"\n}"
+      }
+    },
+    {
+      "_id": "req_datasets_delete",
+      "_type": "request",
+      "parentId": "wrk_1",
+      "method": "DELETE",
+      "url": "{{ base_url }}/datasets/:dataset_id",
+      "name": "Delete Dataset"
+    },
+    {
+  "_id": "req_files_get_all",
+  "_type": "request",
+  "parentId": "wrk_1",
+  "method": "GET",
+  "url": "{{ base_url }}/files",
+  "name": "Get All Files"
+},
+{
+  "_id": "req_files_get_single",
+  "_type": "request",
+  "parentId": "wrk_1",
+  "method": "GET",
+  "url": "{{ base_url }}/files/:file_id",
+  "name": "Get Single File"
+},
+{
+  "_id": "req_files_post",
+  "_type": "request",
+  "parentId": "wrk_1",
+  "method": "POST",
+  "url": "{{ base_url }}/files",
+  "name": "Create File",
+  "body": {
+    "mimeType": "application/json",
+    "text": "{\n  \"dataset_id\": 1,\n  \"name\": \"New File\",\n  \"path\": \"/path/to/file\"\n}"
+  }
+},
+{
+  "_id": "req_files_put",
+  "_type": "request",
+  "parentId": "wrk_1",
+  "method": "PUT",
+  "url": "{{ base_url }}/files/:file_id",
+  "name": "Update File",
+  "body": {
+    "mimeType": "application/json",
+    "text": "{\n  \"dataset_id\": 1,\n  \"name\": \"Updated File Name\",\n  \"path\": \"/path/to/updated/file\"\n}"
+  }
+},
+{
+  "_id": "req_files_delete",
+  "_type": "request",
+  "parentId": "wrk_1",
+  "method": "DELETE",
+  "url": "{{ base_url }}/files/:file_id",
+  "name": "Delete File"
+}]
+}

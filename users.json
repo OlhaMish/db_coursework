@@ -1,0 +1,79 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2023-04-15T12:00:00.000Z",
+  "__export_source": "insomnia.backend",
+  "resources": [
+    {
+      "_id": "wrk_users",
+      "_type": "workspace",
+      "parentId": null,
+      "name": "User API",
+      "description": "User-related endpoints"
+    },
+    {
+      "_id": "env_base_url",
+      "_type": "environment",
+      "parentId": "wrk_users",
+      "data": {
+        "base_url": "http://localhost:8000/api"
+      },
+      "name": "Base environment"
+    },
+    {
+      "_id": "req_users_get_all",
+      "_type": "request",
+      "parentId": "wrk_users",
+      "method": "GET",
+      "url": "{{ base_url }}/users",
+      "name": "Get All Users"
+    },
+    {
+      "_id": "req_users_get_single",
+      "_type": "request",
+      "parentId": "wrk_users",
+      "method": "GET",
+      "url": "{{ base_url }}/users/{{ user_id }}",
+      "name": "Get Single User"
+    },
+    {
+      "_id": "req_users_post",
+      "_type": "request",
+      "parentId": "wrk_users",
+      "method": "POST",
+      "url": "{{ base_url }}/users",
+      "name": "Create User",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"username\": \"new_user\",\n  \"email\": \"new_user@example.com\",\n  \"password\": \"password123\"\n}"
+      }
+    },
+    {
+"_id": "req_users_put",
+      "_type": "request",
+      "parentId": "wrk_users",
+      "method": "PUT",
+      "url": "{{ base_url }}/users/{{ user_id }}",
+      "name": "Update User",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"username\": \"updated_user\",\n  \"email\": \"updated_user@example.com\",\n  \"password\": \"newpassword456\"\n}"
+      }
+    },
+    {
+      "_id": "req_users_delete",
+      "_type": "request",
+      "parentId": "wrk_users",
+      "method": "DELETE",
+      "url": "{{ base_url }}/users/{{ user_id }}",
+      "name": "Delete User"
+    },
+    {
+      "_type": "request_group",
+      "_id": "__GRP___base_url",
+      "parentId": "wrk_users",
+      "name": "User Requests",
+      "description": "A collection of requests for user operations"
+    }
+  ]
+}
